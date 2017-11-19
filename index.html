@@ -25,7 +25,80 @@
 		<div class="reveal">
 			<div class="slides">
 				<section>Slide 1</section>
-				<section>Slide 2</section>
+				<section>
+					<section>Markdown test</section>
+						<section data-markdown>
+							<textarea data-template>
+								# Header 1
+								## Header 2
+								### Header 3
+								#### Header 4
+								A paragraph with some text and a [link](http://hakim.se)
+
+								another line with **bold text** and _italicised text_
+
+								```javascript
+								a block of code, with syntax highlighting
+								var s = "JavaScript syntax highlighting";
+								alert(s);
+								```
+							</textarea>
+						</section>
+						<section data-markdown>
+								<script type="text/template">
+								# Header 1
+								> Blockquotes are very handy in email to emulate reply text.
+								> This line is part of the same quote.
+
+								Quote break.
+
+								---
+
+								> Oh, you can *put* **Markdown** into a blockquote.
+							</script>
+						</section>
+						<section data-markdown>
+							<textarea data-template>
+								## Unordered list
+								* An item
+								* Another item
+								* Yet another item
+							</textarea>
+						</section>
+						<section data-markdown>
+							<textarea data-template>
+								## Ordered list
+								1. An item
+								2. Another item
+									* sub item
+									* sub item
+								3. Yet another item
+							</textarea>
+						</section>
+						<section data-markdown>
+							<textarea data-template>
+								## A table
+								| Tables        | Are           | Cool  |
+								| ------------- |:-------------:| -----:|
+								| col 3 is      | right-aligned | $1600 |
+								| col 2 is      | centered      |   $12 |
+								| zebra stripes | are neat      |    $1 |
+							</textarea>
+						</section>
+					</section>
+				</section>
+				<section>
+					<section>
+						More tests
+					</section>
+					<section data-markdown>
+						<script type="text/template">
+							<!-- .slide: data-background="#0000ff" -->
+							# This slide is blue
+							* Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
+							* Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+						</script>
+					</section>
 			</div>
 		</div>
 
