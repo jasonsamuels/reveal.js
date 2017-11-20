@@ -24,9 +24,13 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
+				<section data-markdown>
+				# Slide 1
+				</section>
 				<section>
-					<section>Markdown test</section>
+					<section data-markdown>
+					# Markdown test
+					</section>
 						<section data-markdown>
 							<textarea data-template>
 								# Header 1
@@ -88,17 +92,21 @@
 					</section>
 				</section>
 				<section>
-					<section>
-						More tests
+					<section data-markdown>
+						# More tests
 					</section>
 					<section data-markdown>
 						<script type="text/template">
-							<!-- .slide: data-background="#0000ff" -->
-							# This slide is blue
-							* Item 1 <!-- .element: class="fragment" data-fragment-index="2" -->
-							* Item 2 <!-- .element: class="fragment" data-fragment-index="1" -->
+							<!-- .slide: data-background="Blue" -->
+							## This slide is blue
+							* Item 1 shows next <!-- .element: class="fragment" data-fragment-index="2" -->
+							* Item 2 shows first <!-- .element: class="fragment" data-fragment-index="1" -->
 						</script>
 					</section>
+				</section>
+				<section data-markdown>
+					# The end
+				</section>
 			</div>
 		</div>
 
